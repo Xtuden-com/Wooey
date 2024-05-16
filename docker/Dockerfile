@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.10.14
 
 ARG BUILD_DIR=/wooey_build
 ENV BUILD_DIR=${BUILD_DIR}
